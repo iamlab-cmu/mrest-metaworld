@@ -87,6 +87,18 @@ from metaworld.policies.sawyer_window_close_v2_policy import SawyerWindowCloseV2
 from metaworld.policies.sawyer_window_open_v2_policy import SawyerWindowOpenV2Policy
 
 
+
+from metaworld.policies.sawyer_pick_place_gen_v2_policy import SawyerPickPlaceGenV2Policy
+from metaworld.policies.sawyer_pick_gen_v2_policy import SawyerPickGenV2Policy
+from metaworld.policies.sawyer_push_forward_gen_v2_policy import SawyerPushForwardGenV2Policy
+from metaworld.policies.sawyer_push_backward_gen_v2_policy import SawyerPushBackwardGenV2Policy
+from metaworld.policies.sawyer_push_left_gen_v2_policy import SawyerPushLeftGenV2Policy
+from metaworld.policies.sawyer_push_right_gen_v2_policy import SawyerPushRightGenV2Policy
+from metaworld.policies.sawyer_stack_gen_v2_policy import SawyerStackGenV2Policy
+from metaworld.policies.sawyer_reach_above_gen_v2_policy import SawyerReachAboveGenV2Policy
+
+from metaworld.policies.sawyer_multitask_v2_policy import SawyerMultitaskV2Policy
+
 __all__ = [
     'SawyerAssemblyV1Policy',
     'SawyerAssemblyV2Policy',
@@ -175,4 +187,14 @@ __all__ = [
     'SawyerSweepV2Policy',
     'SawyerWindowOpenV2Policy',
     'SawyerWindowCloseV2Policy',
+
+    'SawyerPickPlaceGenV2Policy',
+    'SawyerPickGenV2Policy',
+    'SawyerPushForwardGenV2Policy',
+    'SawyerPushBackwardGenV2Policy',
+    'SawyerPushLeftGenV2Policy',
+    'SawyerPushRightGenV2Policy',
+    'SawyerStackGenV2Policy',
+
+    'SawyerMultitaskV2Policy',
 ]

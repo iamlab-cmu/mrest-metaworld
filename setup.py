@@ -4,9 +4,13 @@ from setuptools import find_packages, setup
 # Required dependencies
 required = [
     # Please keep alphabetized
-    'gym>=0.15.4',
-    'mujoco-py<2.2,>=2.0',
+    # 'gym>=0.15.4',
+    # 'mujoco-py<2.2,>=2.0',
     'numpy>=1.18',
+    'scipy',
+    'moviepy',
+    'omegaconf',
+    'shapely',
 ]
 
 

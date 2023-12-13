@@ -97,6 +97,7 @@ class SawyerXYZEnv(SawyerMocapBase, metaclass=abc.ABCMeta):
             mocap_high=None,
             action_scale=1./100,
             action_rot_scale=1.,
+            total_num_objects=None
     ):
         super().__init__(model_name, frame_skip=frame_skip)
         self.random_init = True
@@ -134,6 +135,13 @@ class SawyerXYZEnv(SawyerMocapBase, metaclass=abc.ABCMeta):
         # but we handle that elsewhere and just stick with v2 numbers here
         self._obs_obj_max_len = 14 if self.isV2 else 6
         self._obs_obj_possible_lens = (6, 14)
+        # TODO(Mohit): Hard-coded for now, fix this.
+        if total_num_objects is not None:
+            self._obs_obj_max_len = total_num_objects * (3 + 4)
+            self._obs_obj_possible_lens = (self._obs_obj_max_len, 6 + self._obs_obj_max_len)
+        if self.__class__.__name__ == 'SawyerPickAndPlaceMultiTaskGenEnvV2':
+            assert total_num_objects is not None
+        self._total_num_objects = total_num_objects
 
         self._set_task_called = False
         self._partially_observable = True
@@ -437,6 +445,7 @@ class SawyerXYZEnv(SawyerMocapBase, metaclass=abc.ABCMeta):
             return self._last_stable_obs
 
         reward, info = self.evaluate_state(self._last_stable_obs, action)
+        
         return self._last_stable_obs, reward, False, info
 
     def evaluate_state(self, obs, action):

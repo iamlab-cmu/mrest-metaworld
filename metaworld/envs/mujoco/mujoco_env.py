@@ -131,6 +131,18 @@ class MujocoEnv(gym.Env, abc.ABC):
                 mode='offscreen',
                 camera_name=camera_name
             )
+    
+    def render_new(self, mode='human'):
+        if mode == 'human':
+            self._get_viewer(mode).render()
+        elif mode == 'rgb_array':
+            return self.sim.render(
+                *self._rgb_array_res,
+                mode='offscreen',
+                camera_name='topview'
+            )[:, :, ::-1]
+        else:
+            raise ValueError("mode can only be either 'human' or 'rgb_array'")
 
     def close(self):
         if self.viewer is not None:

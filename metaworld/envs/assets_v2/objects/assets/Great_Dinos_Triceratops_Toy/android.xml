@@ -1,0 +1,37 @@
+<mujocoinclude>
+  <body name="android">
+    <geom material="material_android_0" mesh="model_android" type="mesh" contype="0" conaffinity="0" group="0"/>
+    <geom mesh="model_collision_android_0" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_1" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_2" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_3" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_4" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_5" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_6" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_7" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_8" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_9" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_10" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_11" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_12" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_13" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_14" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_15" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_16" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_17" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_18" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_19" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_20" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_21" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_22" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_23" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_24" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_25" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_26" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_27" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_28" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_29" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_30" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_android_31" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+  </body>
+</mujocoinclude>

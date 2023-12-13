@@ -1,0 +1,39 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="texture_cajun_bottle" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/texture.png"/>
+    <material name="material_cajun_bottle_0" texture="texture_cajun_bottle" specular="0.5" shininess="0.5"/>
+    <mesh name="model_cajun_bottle" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model.obj"/>
+    <mesh name="model_collision_cajun_bottle_0" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_0.obj"/>
+    <mesh name="model_collision_cajun_bottle_1" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_1.obj"/>
+    <mesh name="model_collision_cajun_bottle_2" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_2.obj"/>
+    <mesh name="model_collision_cajun_bottle_3" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_3.obj"/>
+    <mesh name="model_collision_cajun_bottle_4" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_4.obj"/>
+    <mesh name="model_collision_cajun_bottle_5" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_5.obj"/>
+    <mesh name="model_collision_cajun_bottle_6" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_6.obj"/>
+    <mesh name="model_collision_cajun_bottle_7" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_7.obj"/>
+    <mesh name="model_collision_cajun_bottle_8" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_8.obj"/>
+    <mesh name="model_collision_cajun_bottle_9" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_9.obj"/>
+    <mesh name="model_collision_cajun_bottle_10" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_10.obj"/>
+    <mesh name="model_collision_cajun_bottle_11" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_11.obj"/>
+    <mesh name="model_collision_cajun_bottle_12" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_12.obj"/>
+    <mesh name="model_collision_cajun_bottle_13" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_13.obj"/>
+    <mesh name="model_collision_cajun_bottle_14" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_14.obj"/>
+    <mesh name="model_collision_cajun_bottle_15" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_15.obj"/>
+    <mesh name="model_collision_cajun_bottle_16" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_16.obj"/>
+    <mesh name="model_collision_cajun_bottle_17" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_17.obj"/>
+    <mesh name="model_collision_cajun_bottle_18" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_18.obj"/>
+    <mesh name="model_collision_cajun_bottle_19" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_19.obj"/>
+    <mesh name="model_collision_cajun_bottle_20" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_20.obj"/>
+    <mesh name="model_collision_cajun_bottle_21" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_21.obj"/>
+    <mesh name="model_collision_cajun_bottle_22" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_22.obj"/>
+    <mesh name="model_collision_cajun_bottle_23" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_23.obj"/>
+    <mesh name="model_collision_cajun_bottle_24" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_24.obj"/>
+    <mesh name="model_collision_cajun_bottle_25" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_25.obj"/>
+    <mesh name="model_collision_cajun_bottle_26" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_26.obj"/>
+    <mesh name="model_collision_cajun_bottle_27" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_27.obj"/>
+    <mesh name="model_collision_cajun_bottle_28" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_28.obj"/>
+    <mesh name="model_collision_cajun_bottle_29" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_29.obj"/>
+    <mesh name="model_collision_cajun_bottle_30" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_30.obj"/>
+    <mesh name="model_collision_cajun_bottle_31" file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/model_collision_31.obj"/>
+  </asset>
+</mujocoinclude>

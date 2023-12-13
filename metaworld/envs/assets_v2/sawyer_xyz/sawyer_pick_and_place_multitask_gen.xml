@@ -1,0 +1,156 @@
+<mujoco>
+    <include file="../scene/basic_scene.xml"/>
+    <!-- <include file="../objects/assets/bin_dependencies_multitask.xml"/> -->
+    <include file="../objects/assets/xyz_base_dependencies_pick_place.xml"/>
+    <include file="../objects/assets/ACE_Coffee_Mug_Kristen_16_oz_cup/coffee_mug_dependencies.xml"/>
+    <!-- <include file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/blue_small_mug_dependencies.xml"/> -->
+    <!-- <include file="../objects/assets/Reebok_TURBO_RC/reebok_turbo_dependencies.xml"/> -->
+    <!-- <include file="../objects/assets/Great_Dinos_Triceratops_Toy/android_dependencies.xml"/> -->
+    <!-- <include file="../objects/assets/Chelsea_lo_fl_rdheel_zAQrnhlEfw8/pink_heel_shoe_dependencies.xml"/> -->
+    <!-- <include file="../objects/assets/Big_Dot_Aqua_Pencil_Case/aqua_pencil_case_dependencies.xml"/> -->
+    <include file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/cajun_bottle_dependencies.xml"/>
+
+    <compiler angle="radian" inertiafromgeom="auto"/>
+
+
+    <asset>
+
+        <texture name="floor_tile" file="../../franka_sim/meshes/floor_tile.png" width="3000" height="3000" type="2d"/>
+        <material name="tile" texture="floor_tile" specular="0" shininess="0" reflectance="0" emission="1" />
+
+        <material name="carbon" specular="1" shininess="1" reflectance="1" rgba="0.05 0.05 0.05 1" emission="1" />
+        <material name="grey_plastic" specular="0.5" shininess="0" reflectance="0" rgba="0.12 0.14 0.14 1" emission="1" />
+
+        <mesh file="../../franka_sim/objects/bread.stl" name="bread_mesh" scale="1 1 1.25"/>
+        <texture file="../../franka_sim/objects/textures/bread.png" type="2d" name="tex-bread" />
+        <material name="bread" reflectance="0.7" texrepeat="15 15" texture="tex-bread" texuniform="true"/>
+
+        <mesh file="../../franka_sim/objects/bottle.stl" name="bottle_mesh"/>
+        <!-- <texture type="skybox" file="meshes/objects/textures/glass.png" name="tex-glass"/> -->
+        <texture type="2d" file="../../franka_sim/objects/textures/glass.png" name="tex-glass"/>
+        <material name="glass" reflectance="0.5" texrepeat="5 5" texture="tex-glass" texuniform="true"/>
+
+        <mesh file="../../franka_sim/objects/can.msh" name="can_mesh"/>
+        <texture file="../../franka_sim/objects/textures/coke_can.png" name="tex-can" type="2d"/>
+        <material name="coke" reflectance="0.7" texrepeat="5 5" texture="tex-can" texuniform="true"/>
+
+        <texture file="../../franka_sim/objects/textures/pepsi_can.png" name="tex-pepsi" type="2d"/>
+        <material name="pepsi" reflectance="0.7" texrepeat="5 5" texture="tex-pepsi" texuniform="true"/>
+
+        <mesh file="../../franka_sim/objects/cereal.msh" name="cereal_mesh"/>
+        <texture type="2d" file="../../franka_sim/objects/textures/cereal.png" rgb1="1 1 1" name="tex-cereal"/>
+        <material name="cereal" reflectance="0.5" texrepeat="1 1" texture="tex-cereal" texuniform="false"/>
+
+        <mesh file="../../franka_sim/objects/lemon.msh" name="lemon_mesh" scale="1.5 1 1"/>
+        <texture file="../../franka_sim/objects/textures/lemon.png" type="2d" name="tex-lemon"/>
+        <material name="lemon" reflectance="0.7" texrepeat="60 50" texture="tex-lemon" texuniform="true"/>
+
+        <mesh file="../../franka_sim/objects/milk.msh" name="milk_mesh" scale="0.9 0.9 0.9"/>
+        <texture file="../../franka_sim/objects/textures/ceramic.png" name="tex-ceramic" type="2d"/>
+        <material name="ceramic" reflectance="0.5" texrepeat="1 1" texture="tex-ceramic" texuniform="true"/>
+
+    </asset>
+
+    <worldbody>
+        <include file="../objects/assets/xyz_base.xml"/>
+
+        <body name="blockA" pos="0.5 0.5 0.03">
+            <joint type="free" name="blockA"/>
+            <geom name="blockA" type="box" mass="0.01" size="0.024 0.024 0.03" rgba=".9 0 0 1" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+        </body>
+
+        <body name="blockB" pos="0.3 0.35 0.03">
+            <joint type="free" name="blockB"/>
+            <geom name="blockB" type="box" mass="0.01" size="0.024 0.024 0.03" rgba=".0 .9 0 1" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+        </body>
+
+        <body name="blockC" pos="-0.2 0.35 0.03">
+            <joint type="free" name="blockC"/>
+            <geom name="blockC" type="box" mass="0.01" size="0.024 0.024 0.03" rgba=".0 0 0.9 1" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+        </body>
+
+        <body name="blockD" pos="0.0 0.45 0.03">
+            <joint type="free" name="blockD"/>
+            <geom name="blockD" type="box" mass="0.01" size="0.024 0.024 0.03" rgba=".9 .9 0 1" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+        </body>
+
+          <body name="bread" pos="-0.1 0.5 0.03">
+            <joint type="free" name="bread"/>
+            <geom pos="0 0 0" mesh="bread_mesh" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="50" friction="0.95 0.3 0.1"  material="bread" condim="4"/>
+          </body>
+
+        <body name="bottle" pos="0.3 0.5 0.065">
+            <joint type="free" name="bottle"/>
+            <geom mesh="bottle_mesh" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="50" friction="0.95 0.3 0.1" material="glass" contype="1" conaffinity="1" condim="4"/>
+            <!-- <geom pos="0 0 0.05" mesh="bottle_mesh" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="50" friction="0.95 0.3 0.1" material="glass" group="0"/> -->
+        </body>
+
+        <body name="coke" pos="0.4 0.5 0.04">
+            <joint type="free" name="can"/>
+            <geom mesh="can_mesh" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="50" friction="0.95 0.3 0.1" material="coke" contype="1" conaffinity="1" condim="4"/>
+        </body>
+
+        <body name="pepsi" pos="0.6 0.5 0.04">
+            <joint type="free" name="pepsi"/>
+            <geom mesh="can_mesh" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="50" friction="0.95 0.3 0.1" material="pepsi" contype="1" conaffinity="1" condim="4"/>
+        </body>
+
+        <body name="milk" pos="-0.2 0.5 0.06"> 
+            <joint type="free" name="milk"/>
+            <geom mesh="milk_mesh" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="50" friction="0.95 0.3 0.01" material="ceramic" contype="1" conaffinity="1" condim="4"/>
+        </body>
+
+        <body name="round_mug" pos="-0.4 0.5 0.04">
+            <joint type="free" name="round_mug"/>
+            <include file="../objects/assets/ACE_Coffee_Mug_Kristen_16_oz_cup/coffee_mug.xml"/>
+        </body>
+
+        <!-- <body name="blue_mug" pos="-0.4 0.3 0.04">
+            <joint type="free" name="blue_mug"/>
+            <include file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/blue_small_mug.xml"/>
+        </body> -->
+
+        <!-- <body name="shoe" pos="-0.5 0.7 0.04" quat="1 0 0 1">
+            <joint type="free" name="shoe"/>
+            <include file="../objects/assets/Reebok_TURBO_RC/reebok_turbo.xml"/>
+        </body> -->
+        
+        <!-- <body name="android_toy" pos="-0.5 0.7 0.04" quat="0 0 0 1">
+            <joint type="free" name="android_toy"/>
+            <include file="../objects/assets/Great_Dinos_Triceratops_Toy/android.xml"/>
+        </body> -->
+
+        <!-- <body name="pink_shoe" pos="-0.5 0.7 0.04" quat="1 0 0 1">
+            <joint type="free" name="pink_shoe"/>
+            <include file="../objects/assets/Chelsea_lo_fl_rdheel_zAQrnhlEfw8/pink_heel_shoe.xml"/>
+        </body> -->
+
+        <!-- <body name="aqua_bag" pos="-0.5 0.7 0.04" quat="0 0 0 1">
+            <joint type="free" name="aqua_bag"/>
+            <include file="../objects/assets/Big_Dot_Aqua_Pencil_Case/aqua_pencil_case.xml"/>
+        </body> -->
+
+        <body name="bottle_sauce" pos="-0.5 0.7 0.04" quat="0 0 0 1">
+            <joint type="free" name="bottle_sauce"/>
+            <include file="../objects/assets/Weston_No_22_Cajun_Jerky_Tonic_12_fl_oz_nLj64ZnGwDh/cajun_bottle.xml"/>
+        </body>
+
+        <!-- grey color -->
+        <site name="placeSiteA" pos="0.1 0.45 0.1" size="0.02" rgba="1.0 0.6 0.0 1.0"/>
+        <!-- purple color -->
+        <site name="placeSiteB" pos="-0.1 0.5 0.1" size="0.02" rgba="0.5 0.5 1 0"/>
+        <!-- hidden site for now -->
+        <site name="placeSiteC" pos="0.1 0.45 0.1" size="0.02" rgba="1 0.5 0.5 0"/>
+
+    </worldbody>
+
+    <actuator>
+        <!-- <position ctrllimited="true" ctrlrange="-1 1" joint="r_close" kp="400"  user="1"/>
+        <position ctrllimited="true" ctrlrange="-1 1" joint="l_close" kp="400"  user="1"/> -->
+        <position ctrllimited="true" ctrlrange="-1 1" joint="l_close" kp="150"  user="1"/>
+        <position ctrllimited="true" ctrlrange="-1 1" joint="r_close" kp="150"  user="1"/>
+    </actuator>
+    <equality>
+        <weld body1="mocap" body2="hand" solref="0.02 1"></weld>
+    </equality>
+</mujoco>

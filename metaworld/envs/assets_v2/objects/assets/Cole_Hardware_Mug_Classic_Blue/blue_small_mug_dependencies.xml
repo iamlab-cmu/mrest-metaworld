@@ -1,0 +1,39 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="texture_blue" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/texture.png"/>
+    <material name="material_blue_0" texture="texture_blue" specular="0.5" shininess="0.5"/>
+    <mesh name="model_blue_mug" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model.obj"/>
+    <mesh name="model_collision_blue_mug_0" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_0.obj"/>
+    <mesh name="model_collision_blue_mug_1" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_1.obj"/>
+    <mesh name="model_collision_blue_mug_2" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_2.obj"/>
+    <mesh name="model_collision_blue_mug_3" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_3.obj"/>
+    <mesh name="model_collision_blue_mug_4" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_4.obj"/>
+    <mesh name="model_collision_blue_mug_5" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_5.obj"/>
+    <mesh name="model_collision_blue_mug_6" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_6.obj"/>
+    <mesh name="model_collision_blue_mug_7" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_7.obj"/>
+    <mesh name="model_collision_blue_mug_8" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_8.obj"/>
+    <mesh name="model_collision_blue_mug_9" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_9.obj"/>
+    <mesh name="model_collision_blue_mug_10" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_10.obj"/>
+    <mesh name="model_collision_blue_mug_11" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_11.obj"/>
+    <mesh name="model_collision_blue_mug_12" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_12.obj"/>
+    <mesh name="model_collision_blue_mug_13" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_13.obj"/>
+    <mesh name="model_collision_blue_mug_14" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_14.obj"/>
+    <mesh name="model_collision_blue_mug_15" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_15.obj"/>
+    <mesh name="model_collision_blue_mug_16" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_16.obj"/>
+    <mesh name="model_collision_blue_mug_17" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_17.obj"/>
+    <mesh name="model_collision_blue_mug_18" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_18.obj"/>
+    <mesh name="model_collision_blue_mug_19" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_19.obj"/>
+    <mesh name="model_collision_blue_mug_20" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_20.obj"/>
+    <mesh name="model_collision_blue_mug_21" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_21.obj"/>
+    <mesh name="model_collision_blue_mug_22" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_22.obj"/>
+    <mesh name="model_collision_blue_mug_23" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_23.obj"/>
+    <mesh name="model_collision_blue_mug_24" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_24.obj"/>
+    <mesh name="model_collision_blue_mug_25" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_25.obj"/>
+    <mesh name="model_collision_blue_mug_26" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_26.obj"/>
+    <mesh name="model_collision_blue_mug_27" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_27.obj"/>
+    <mesh name="model_collision_blue_mug_28" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_28.obj"/>
+    <mesh name="model_collision_blue_mug_29" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_29.obj"/>
+    <mesh name="model_collision_blue_mug_30" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_30.obj"/>
+    <mesh name="model_collision_blue_mug_31" file="../objects/assets/Cole_Hardware_Mug_Classic_Blue/model_collision_31.obj"/>
+  </asset>
+</mujocoinclude>

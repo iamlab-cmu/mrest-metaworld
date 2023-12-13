@@ -1,0 +1,37 @@
+<mujocoinclude>
+  <body name="blue_small_mug">
+    <geom material="material_blue_0" mesh="model_blue_mug" type="mesh" contype="0" conaffinity="0" group="0"/>
+    <geom mesh="model_collision_blue_mug_0" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_1" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_2" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_3" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_4" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_5" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_6" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_7" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_8" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_9" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_10" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_11" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_12" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_13" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_14" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_15" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_16" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_17" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_18" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_19" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_20" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_21" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_22" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_23" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_24" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_25" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_26" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_27" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_28" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_29" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_30" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+    <geom mesh="model_collision_blue_mug_31" type="mesh" group="3" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+  </body>
+</mujocoinclude>

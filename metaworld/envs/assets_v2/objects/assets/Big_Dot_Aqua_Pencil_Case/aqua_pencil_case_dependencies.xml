@@ -1,0 +1,39 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="texture_aqua_pencil_case" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/texture.png"/>
+    <material name="material_aqua_pencil_case_0" texture="texture_aqua_pencil_case" specular="0.5" shininess="0.5"/>
+    <mesh name="model_aqua_pencil_case" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_0" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_0.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_1" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_1.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_2" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_2.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_3" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_3.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_4" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_4.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_5" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_5.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_6" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_6.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_7" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_7.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_8" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_8.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_9" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_9.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_10" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_10.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_11" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_11.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_12" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_12.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_13" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_13.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_14" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_14.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_15" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_15.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_16" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_16.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_17" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_17.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_18" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_18.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_19" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_19.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_20" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_20.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_21" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_21.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_22" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_22.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_23" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_23.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_24" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_24.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_25" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_25.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_26" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_26.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_27" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_27.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_28" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_28.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_29" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_29.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_30" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_30.obj"/>
+    <mesh name="model_collision_aqua_pencil_case_31" file="../objects/assets/Big_Dot_Aqua_Pencil_Case/model_collision_31.obj"/>
+  </asset>
+</mujocoinclude>

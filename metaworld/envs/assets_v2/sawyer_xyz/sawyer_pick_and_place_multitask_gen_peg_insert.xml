@@ -1,0 +1,56 @@
+<mujoco>
+    <include file="../scene/basic_scene.xml"/>
+    <!-- <include file="../objects/assets/bin_dependencies_multitask.xml"/> -->
+    <include file="../objects/assets/xyz_base_dependencies_pick_place.xml"/>
+    <include file="../objects/assets/peg_insert_multitask_dependencies.xml"/>
+
+    <compiler angle="radian" inertiafromgeom="auto"/>
+
+    <asset>
+
+        <texture name="floor_tile" file="../../franka_sim/meshes/floor_tile.png" width="3000" height="3000" type="2d"/>
+        <material name="tile" texture="floor_tile" specular="0" shininess="0" reflectance="0" emission="1" />
+
+    </asset>
+
+    <worldbody>
+        <include file="../objects/assets/xyz_base.xml"/>
+
+        <body name="peg_square" pos="0.23 0.7 0.1">
+            <geom pos="0 0 0" size="0.016 0.016 0.1" type="box" group="0" friction="1 0.005 0.0001"/>
+            <geom pos="0 0 0" size="0.016 0.016 0.1" type="box" conaffinity="0" contype="0" group="1" material="bmetal" />
+        </body>
+        <body name="peg_cylinder" pos="-0.23 0.7 0.1">
+            <geom pos="0 0 0" size="0.02 0.1" type="cylinder" group="0" friction="1 0.005 0.0001"/>
+            <geom pos="0 0 0" size="0.02 0.1" type="cylinder" conaffinity="0" contype="0" group="1" material="smetal" />
+        </body>
+
+        <body name="SquareNut" pos="0.1 0.6 0.02" quat="-1 0 0 1">
+            <joint type="free" name="SquareNut"/>
+            <include file="../objects/assets/square-nut.xml"/>
+        </body>
+
+        <body name="RoundNut" pos="-0.1 0.6 0.02" quat="-1 0 0 1">
+            <joint type="free" name="RoundNut"/>
+            <include file="../objects/assets/round-nut.xml"/>
+        </body>
+
+        <!-- grey color -->
+        <site name="placeSiteA" pos="0.1 0.45 0.1" size="0.02" rgba="0.5 0.5 0.5 0.8"/>
+        <!-- purple color -->
+        <site name="placeSiteB" pos="-0.1 0.5 0.1" size="0.02" rgba="0.5 0.5 1 0"/>
+        <!-- hidden site for now -->
+        <site name="placeSiteC" pos="0.1 0.45 0.1" size="0.02" rgba="1 0.5 0.5 0"/>
+
+    </worldbody>
+
+    <actuator>
+        <!-- <position ctrllimited="true" ctrlrange="-1 1" joint="r_close" kp="400"  user="1"/>
+        <position ctrllimited="true" ctrlrange="-1 1" joint="l_close" kp="400"  user="1"/> -->
+        <position ctrllimited="true" ctrlrange="-1 1" joint="l_close" kp="150"  user="1"/>
+        <position ctrllimited="true" ctrlrange="-1 1" joint="r_close" kp="150"  user="1"/>
+    </actuator>
+    <equality>
+        <weld body1="mocap" body2="hand" solref="0.02 1"></weld>
+    </equality>
+</mujoco>
