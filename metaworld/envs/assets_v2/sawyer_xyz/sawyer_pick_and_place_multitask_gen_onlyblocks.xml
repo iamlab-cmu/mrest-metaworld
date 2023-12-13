@@ -1,0 +1,56 @@
+<mujoco>
+    <include file="../scene/basic_scene.xml"/>
+    <!-- <include file="../objects/assets/bin_dependencies_multitask.xml"/> -->
+    <include file="../objects/assets/xyz_base_dependencies_pick_place.xml"/>
+
+    <compiler angle="radian" inertiafromgeom="auto"/>
+
+    <asset>
+
+        <!--<texture name="floor_tile" file="../../franka_sim/meshes/floor_tile.png" width="3000" height="3000" type="2d"/>-->
+        <!--<material name="tile" texture="floor_tile" specular="0" shininess="0" reflectance="0" emission="1" />-->
+
+    </asset>
+
+    <worldbody>
+        <include file="../objects/assets/xyz_base.xml"/>
+
+        <body name="blockA" pos="0.5 0.5 0.03">
+            <joint type="free" name="blockA"/>
+            <geom name="blockA" type="box" mass="0.01" size="0.024 0.024 0.03" rgba=".9 0 0 1" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+        </body>
+
+        <body name="blockB" pos="0.3 0.35 0.03">
+            <joint type="free" name="blockB"/>
+            <geom name="blockB" type="box" mass="0.01" size="0.024 0.024 0.03" rgba=".0 .9 0 1" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+        </body>
+
+        <body name="blockC" pos="-0.2 0.35 0.03">
+            <joint type="free" name="blockC"/>
+            <geom name="blockC" type="box" mass="0.01" size="0.024 0.024 0.03" rgba=".0 0 0.9 1" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+        </body>
+
+        <body name="blockD" pos="0.0 0.45 0.03">
+            <joint type="free" name="blockD"/>
+            <geom name="blockD" type="box" mass="0.01" size="0.024 0.024 0.03" rgba=".9 .9 0 1" contype="1" conaffinity="1" density="50" solimp="0.99 0.99 0.01" solref="0.01 1" condim="4" friction="0.8 0.8 10"/>
+        </body>
+
+        <!-- grey color -->
+        <site name="placeSiteA" pos="0.1 0.45 0.1" size="0.02" rgba="0.5 0.5 0.5 0.8"/>
+        <!-- purple color -->
+        <site name="placeSiteB" pos="-0.1 0.5 0.1" size="0.02" rgba="0.5 0.5 1 0"/>
+        <!-- hidden site for now -->
+        <site name="placeSiteC" pos="0.1 0.45 0.1" size="0.02" rgba="1 0.5 0.5 0"/>
+
+    </worldbody>
+
+    <actuator>
+        <!-- <position ctrllimited="true" ctrlrange="-1 1" joint="r_close" kp="400"  user="1"/>
+        <position ctrllimited="true" ctrlrange="-1 1" joint="l_close" kp="400"  user="1"/> -->
+        <position ctrllimited="true" ctrlrange="-1 1" joint="l_close" kp="150"  user="1"/>
+        <position ctrllimited="true" ctrlrange="-1 1" joint="r_close" kp="150"  user="1"/>
+    </actuator>
+    <equality>
+        <weld body1="mocap" body2="hand" solref="0.02 1"></weld>
+    </equality>
+</mujoco>
